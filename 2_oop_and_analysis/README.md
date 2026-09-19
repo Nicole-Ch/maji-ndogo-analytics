@@ -28,13 +28,10 @@ Together, these technologies created a workflow in which data could be loaded, s
 
 The first deliverable was an algorithm-based search and sorting workflow. The dataset contained 5,654 field records, allowing the performance of different approaches to be demonstrated on a realistic collection of records. Merge sort was used to organize the data, making binary search possible on the sorted records. This demonstrated why the way data is organized can affect how quickly a specific record can be found.
 
-![Search and sorting workflow](images/search_and_sorting.png)
 
 The result demonstrates the use of sorting and searching algorithms on the agricultural records and shows how algorithm choice affects the number of operations required to locate information.
 
 The second deliverable was the object-oriented field registry. Instead of keeping each field as an unrestricted dictionary, the records were converted into `Field` objects with defined attributes and validation rules.
-
-![Field class and encapsulation](images/field_class.png)
 
 This demonstrates how the field data was given a consistent structure and how validation can prevent invalid values from entering the model. For example, the pollution level is restricted to the valid range of 0 to 1.
 
